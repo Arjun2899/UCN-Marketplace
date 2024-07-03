@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e9e9e9;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #555;
+}
+
+.featured-categories {
+    text-align: center;
+}
+
+.featured-categories h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.category {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+}
+
+.category a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+.top-sellers, .new-arrivals {
+    margin-top: 40px;
+}
+
+.top-sellers h2, .new-arrivals h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.footer-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.newsletter-signup {
+    margin-top: 20px;
+}
+
+.newsletter-signup input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.newsletter-signup button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
